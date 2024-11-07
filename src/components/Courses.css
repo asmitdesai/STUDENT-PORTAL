@@ -1,0 +1,204 @@
+/* Courses.css */
+.courses-container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .courses-container h2 {
+    color: #1a1a2e;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 28px;
+  }
+  
+  .semester-selection {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .semester-selection label {
+    margin-right: 15px;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  .semester-selection select {
+    padding: 8px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    min-width: 200px;
+  }
+  
+  .courses-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .course-box {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .course-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .course-box h3 {
+    color: #2c5282;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+  }
+  
+  .course-box p {
+    margin: 5px 0;
+    color: #4a5568;
+    font-size: 0.95rem;
+  }
+  
+  .course-box .course-description {
+    margin-top: 10px;
+    font-style: italic;
+    color: #666;
+  }
+  
+  .course-modal {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+  }
+  
+  .course-modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 800px;
+    border-radius: 5px;
+  }
+  
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .course-content-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .course-content-table th,
+  .course-content-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .course-content-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  .course-content-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  /* Responsive Design */
+  @media screen and (max-width: 768px) {
+    .courses-container {
+      padding: 10px;
+    }
+  
+    .courses-grid {
+      grid-template-columns: 1fr;
+      padding: 10px;
+      gap: 15px;
+    }
+  
+    .semester-selection {
+      margin-bottom: 20px;
+    }
+  
+    .semester-selection label {
+      display: block;
+      margin-bottom: 10px;
+    }
+  
+    .semester-selection select {
+      width: 100%;
+      max-width: 300px;
+    }
+  
+    .course-box {
+      padding: 15px;
+    }
+  
+    .course-box h3 {
+      font-size: 1.1rem;
+    }
+  
+    .course-box p {
+      font-size: 0.9rem;
+    }
+  
+    .course-modal-content {
+      width: 95%;
+      margin: 5% auto;
+      padding: 15px;
+    }
+  
+    .course-content-table {
+      display: block;
+      overflow-x: auto;
+    }
+  
+    .course-content-table th,
+    .course-content-table td {
+      padding: 6px;
+      font-size: 0.9rem;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .courses-container h2 {
+      font-size: 24px;
+    }
+  
+    .course-box {
+      padding: 12px;
+    }
+  
+    .course-modal-content {
+      margin: 2% auto;
+    }
+  
+    .close {
+      font-size: 24px;
+    }
+  }

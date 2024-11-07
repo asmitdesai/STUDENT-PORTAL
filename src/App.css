@@ -1,0 +1,91 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.login-form,
+.signup-form,
+.forgot-password-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+input {
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 16px;
+}
+
+button {
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #61dafb;
+  color: #282c34;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #4fa8d5;
+}
+
+/* Dashboard styles */
+.dashboard {
+  width: 100%;
+  height: calc(100vh - 60px); /* Adjust based on your header height */
+  display: flex;
+  color: #333;
+}
+
+.sidebar {
+  width: 200px;
+  background-color: #f0f0f0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content {
+  flex-grow: 1;
+  padding: 20px;
+  background-color: #fff;
+  overflow-y: auto;
+}
+
+.announcements {
+  margin-top: 20px;
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.announcements h3 {
+  margin-top: 0;
+}
+
+.announcements ul {
+  padding-left: 20px;
+}
+
+.announcements li {
+  margin-bottom: 10px;
+}

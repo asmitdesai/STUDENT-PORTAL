@@ -1,0 +1,58 @@
+.exam-timetable {
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .exam-timetable h2 {
+    text-align: center;
+    color: #2c5282;
+    margin-bottom: 20px;
+  }
+  
+  .semester-selector {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .semester-selector select {
+    padding: 5px 10px;
+    font-size: 16px;
+  }
+  
+  .exam-schedule {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .exam-schedule th, .exam-schedule td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+  }
+  
+  .exam-schedule th {
+    background-color: #2c5282;
+    color: white;
+  }
+  
+  .exam-schedule tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .exam-schedule tr:hover {
+    background-color: #ddd;
+  }
+  
+  .mid-semester {
+    background-color: #e6f7ff;
+  }
+  
+  .end-semester {
+    background-color: #fff0f6;
+  }
+  
+  .project-deadline {
+    background-color: #f6ffed;
+  }

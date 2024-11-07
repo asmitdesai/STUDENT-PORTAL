@@ -1,0 +1,129 @@
+/* TimeTable.css */
+.timetable-container {
+    padding: 20px;
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+  
+  .timetable-container h2 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 30px;
+  }
+  
+  .semester-selector {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .semester-selector select {
+    padding: 8px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin-left: 10px;
+  }
+  
+  .timetable-wrapper {
+    overflow-x: auto;
+    margin-bottom: 30px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .timetable {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    font-size: 14px;
+  }
+  
+  .timetable th,
+  .timetable td {
+    border: 1px solid #e2e8f0;
+    padding: 12px;
+    text-align: center;
+  }
+  
+  .timetable th {
+    background-color: #2c5282;
+    color: white;
+    font-weight: 600;
+    padding: 15px;
+  }
+  
+  .time-slot {
+    font-weight: bold;
+    background-color: #f8fafc;
+  }
+  
+  .subject {
+    font-weight: 600;
+    margin-bottom: 4px;
+  }
+  
+  .room {
+    font-size: 12px;
+    color: #666;
+    margin-bottom: 2px;
+  }
+  
+  .teacher {
+    font-size: 12px;
+    color: #999;
+  }
+  
+  .break-cell {
+    background-color: #fce4e4;
+  }
+  
+  .sports-cell {
+    background-color: #e0f7fa;
+  }
+  
+  .library-cell {
+    background-color: #e8f5e9;
+  }
+  
+  .lab-cell {
+    background-color: #e3f2fd;
+  }
+  
+  .timetable-legend {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .legend-item {
+    margin: 0 15px;
+    font-size: 14px;
+  }
+  
+  .legend-color {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 3px;
+    margin-right: 5px;
+  }
+  
+  .lab-color {
+    background-color: #e3f2fd;
+  }
+  
+  .break-color {
+    background-color: #fce4e4;
+  }
+  
+  .sports-color {
+    background-color: #e0f7fa;
+  }
+  
+  .library-color {
+    background-color: #e8f5e9;
+  }
+  /* TimeTable.css */
+.free-hour-cell {
+    background-color: #fff3cd; /* Light yellow for free hour */
+  }
