@@ -14,7 +14,7 @@ A comprehensive web application designed to help students manage their academic 
 - **Course Information**: Access detailed course materials and schedules
 - **Calendar**: Track important academic dates and events
 - **Placement Portal**: Access placement opportunities and company information
-(https://student-portal123.vercel.app/)
+
 ## Installation
 
 1. Clone the repository
