@@ -38,5 +38,4 @@ React.js
 CSS3
 JavaScript (ES6+)
 jsPDF (for document generation)
-Live Demo
-Visit https://student-portal.vercel.app
+
